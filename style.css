@@ -19,23 +19,19 @@ footer div.contato{
 }
 
 footer div.contato p{
+    margin-top: 8px;
     margin-bottom: 0px;
     border-bottom: 1px white solid;
 }
-footer div.contato a{
+footer div.contato a, footer div.contato img{
     color: aliceblue;
     text-decoration: none;
     -webkit-transition: all 0.4s ease-in;
-}
-footer div.contato a img{
     padding: 0px 10px;
-    -webkit-transition: all 0.4s ease-in;
 }
-footer div.contato a:hover img{
-    width: 5.5%;
-}
-footer div.contato a:hover{
+footer div.contato a:hover, footer div.contato a:hover img{
     text-shadow: 0.5px 1px 1px rgb(230, 218, 218);
     text-decoration: underline;
     font-size: 17px;
+    width: 5.5%;
 }
