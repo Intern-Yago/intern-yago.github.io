@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+img{
+    margin-top: 10px;
+    width: 30px;
+}
+img.me{
+    width: 300px;
+    border-radius: 100%;
+}
+footer{
+    color: aliceblue;
+    background-color: black;
+    border-top: 1px white solid;
+    text-align: center;
+}
+footer div.contato{
+    padding: 15px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a img{
+    padding: 0px 10px;
+}
