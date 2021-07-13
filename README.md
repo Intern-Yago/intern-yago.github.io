@@ -1,1 +1,1 @@
-# Syri-Yagowo.github.io
+# Intern-Yago.github.io

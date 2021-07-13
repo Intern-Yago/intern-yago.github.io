@@ -1,35 +1,45 @@
 {\rtf1\ansi\deff0\adeflang1025
-{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Wingdings;}{\f4\fnil\fprq0\fcharset2 OpenSymbol{\*\falt Arial Unicode MS};}{\f5\fnil\fprq2\fcharset0 Microsoft YaHei;}{\f6\fnil\fprq2\fcharset0 Arial;}{\f7\fswiss\fprq0\fcharset128 Arial;}}
-{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red89\green89\blue89;}
-{\stylesheet{\s0\snext0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046 Normal;}
-{\*\cs15\snext15\expnd0\expndtw0\b\charscalex100\loch\f0\hich\af0\fs22 ListLabel 1;}
-{\*\cs16\snext16\cf9\ul\ulc0\langfe255\alang255\lang255 Link da Internet;}
-{\*\cs17\snext17\dbch\af4\dbch\af4\loch\f4 Marcas;}
-{\s18\sbasedon0\snext19\sb240\sa120\keepn\dbch\af5\dbch\af6\afs28\loch\f2\fs28 T\u237\'edtulo;}
-{\s19\sbasedon0\snext19\sl276\slmult1\sb0\sa140 Corpo do texto;}
-{\s20\sbasedon19\snext20\sl276\slmult1\sb0\sa140\dbch\af7 Lista;}
-{\s21\sbasedon0\snext21\sb120\sa120\noline\i\dbch\af7\afs24\ai\fs24 Legenda;}
-{\s22\sbasedon0\snext22\noline\dbch\af7 \u205\'cdndice;}
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Arial;}{\f4\froman\fprq2\fcharset0 Wingdings;}{\f5\fnil\fprq2\fcharset0 OpenSymbol{\*\falt Arial Unicode MS};}{\f6\fnil\fprq2\fcharset0 Arial;}{\f7\fnil\fprq2\fcharset0 Wingdings;}{\f8\fnil\fprq2\fcharset0 Times New Roman;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046 Normal;}
+{\*\cs15\snext15\expnd0\expndtw0\b\dbch\af8\afs22\charscalex100\loch\f0 ListLabel 1;}
+{\*\cs16\snext16\cf9\ul\ulc0\langfe255\lang255 Link da Internet;}
+{\*\cs17\snext17\b0\dbch\af5\fs22 ListLabel 2;}
+{\*\cs18\snext18\dbch\af5 ListLabel 3;}
+{\*\cs19\snext19\dbch\af5 ListLabel 4;}
+{\*\cs20\snext20\dbch\af5 ListLabel 5;}
+{\*\cs21\snext21\dbch\af5 ListLabel 6;}
+{\*\cs22\snext22\dbch\af5 ListLabel 7;}
+{\*\cs23\snext23\dbch\af5 ListLabel 8;}
+{\*\cs24\snext24\dbch\af5 ListLabel 9;}
+{\*\cs25\snext25\dbch\af5 ListLabel 10;}
+{\*\cs26\snext26\expnd0\expndtw0\b\afs22\ab\charscalex100\fs22 ListLabel 11;}
+{\*\cs27\snext27\cf9\expnd0\expndtw0\i0\ulnone\ulc0\b0\langfe255\charscalex100\fs22\lang255 ListLabel 12;}
+{\s28\sbasedon0\snext29\nowidctlpar\hyphpar0\sb240\sa120\keepn\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f3\fs28 T\u237\'edtulo;}
+{\s29\sbasedon0\snext29\sl276\slmult1\nowidctlpar\hyphpar0\sb0\sa140\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24 Corpo do texto;}
+{\s30\sbasedon29\snext30\sl276\slmult1\nowidctlpar\hyphpar0\sb0\sa140\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24 Lista;}
+{\s31\sbasedon0\snext31\nowidctlpar\hyphpar0\sb120\sa120\cf0\i\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24 Legenda;}
+{\s32\sbasedon0\snext32\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24 \u205\'cdndice;}
 }{\*\listtable{\list\listtemplateid1
 {\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f1\fi-348\li823}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li1690}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li2560}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li3430}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li4300}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li5170}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li6040}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li6910}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\fi-348\li7780}\listid1}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li1690}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li2560}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li3430}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li4300}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li5170}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li6040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li6910}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-348\li7780}\listid1}
 {\list\listtemplateid2
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\dbch\af4\fi-360\li720}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li1080}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li1440}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li1800}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li2160}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li2520}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li2880}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li3240}
-{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f4\dbch\af4\fi-360\li3600}\listid2}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f10\b0\fs22\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f9\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f9\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f9\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f9\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f9\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f9\fi-360\li3600}\listid2}
 {\list\listtemplateid3
 {\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
 {\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
@@ -40,61 +50,59 @@
 {\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
 {\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
 {\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid3}
-}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}{\*\generator Trio_Office/6.2.8.2$Windows_x86 LibreOffice_project/}{\info{\title Curriculum Daniell Amorim}{\author X550C}{\creatim\yr2021\mo7\dy1\hr21\min40}{\revtim\yr2021\mo7\dy3\hr22\min44}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops{\propname Creator}\proptype30{\staticval PDFCreator 2.5.1.5}}\deftab720
-\viewscale100
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}{\*\generator Trio_Office/6.2.8.2$Windows_x86 LibreOffice_project/}{\info{\title Curriculum Daniell Amorim}{\author X550C}{\creatim\yr2021\mo7\dy1\hr21\min40}{\revtim\yr2021\mo7\dy9\hr12\min4}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops{\propname Creator}\proptype30{\staticval PDFCreator 2.5.1.5}}\deftab720
+\hyphauto0\viewscale100
 {\*\pgdsctbl
 {\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\pgdscnxt0 Estilo padr\u227\'e3o;}
-{\pgdsc1\pgdscuse451\pgndec\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\pgdscnxt0 Primeira p\u225\'e1gina;}
-{\pgdsc2\pgdscuse451\pgndec\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn880\margbsxn280\pgdscnxt2 Converted1;}}
+{\pgdsc1\pgdscuse451\pgndec\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\pgdscnxt0 Primeira p\u225\'e1gina;}}
 \formshade\paperh16838\paperw11906\margl1200\margr1180\margt860\margb280\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
-{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0\sb75\sa59{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs24
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0\sb75\sa59{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch
 YAGO VICTOR GUIMAR\u195\'c3ES MESSIAS}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-40\slmult0\li-77\ri0\lin-77\rin0\fi0\rtlch \ltrch\loch
-{\field{\*\fldinst SHAPE }{\fldrslt}}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb7\sa0\i0\b\rtlch \ltrch\loch\fs31
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-40\slmult0\li-77\ri0\lin-77\rin0\fi0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qc\li1691\ri1706\lin1691\rin1706\fi0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb7\sa0\ai0\ab\rtlch \ltrch\loch\fs31
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qc\li1691\ri1706\lin1691\rin1706\fi0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
 Quadra 207 Lote 05 Bloco A apartamento 1004 Residencial It\u225\'e1lia}{\expnd-10\expndtw-52\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 Vicente}{\expnd0\expndtw-1\i0\b\charscalex100\rtlch \ltrch\loch\fs22
- }{\expnd0\expndtw-1\i0\b\charscalex100\rtlch \ltrch\loch\fs22
-Pires}{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
+ Pires}{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
  \u8211\'96}{\expnd0\expndtw-3\i0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 Bras\u237\'edlia \u8211\'96}{\expnd0\expndtw-3\i0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 DF}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-252\slmult0\qc\li3991\ri4005\lin3991\rin4005\fi0\sb1\sa0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-252\slmult0\qc\li3991\ri4005\lin3991\rin4005\fi0\sb1\sa0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
 (61)}{\expnd0\expndtw-2\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 98348-5671}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl242\slmult1\qc\li3118\ri3345\lin3118\rin3345\fi0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
-yagovictorbotafogo}{{\field{\*\fldinst HYPERLINK "mailto:daniell.amorim@gmail.com" }{\fldrslt {\expnd0\expndtw0\b\charscalex100\loch\f0\hich\af0\fs22\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qc\li3118\ri3345\lin3118\rin3345\fi0{\expnd0\expndtw0\b\charscalex100\rtlch \ltrch\loch\fs22
+yagovictorbotafogo}{{\field{\*\fldinst HYPERLINK "mailto:daniell.amorim@gmail.com" }{\fldrslt {\expnd0\expndtw0\b\afs22\ab\charscalex100\fs22\expnd0\expndtw0\b\afs22\ab\charscalex100\rtlch \ltrch\loch\fs22
 @gmail.com}{}}}\expnd0\expndtw1\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 16}{\expnd0\expndtw-1\i0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 anos}{\expnd0\expndtw-1\i0\b\charscalex100\rtlch \ltrch\loch\fs22
- }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22\loch\f3\hich\af3
+ }{\expnd0\expndtw0\i0\b0\dbch\af7\charscalex100\rtlch \ltrch\loch\fs22\loch\f4\hich\af4
 \u61600\'3f}{\expnd0\expndtw-3\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
-Brasileiro }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22\loch\f3\hich\af3
+Brasileiro }{\expnd0\expndtw0\i0\b0\dbch\af7\charscalex100\rtlch \ltrch\loch\fs22\loch\f4\hich\af4
 \u61600\'3f}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 Solteiro}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb9\sa0\i0\b\rtlch \ltrch\loch\fs16
-{\field{\*\fldinst SHAPE }{\fldrslt}}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb4\sa0\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb9\sa0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\i0\b\rtlch \ltrch\loch\fs20
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb4\sa0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb1\sa0\i0\b\rtlch \ltrch\loch\fs18
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\ai0\ab\rtlch \ltrch\loch\fs20
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0\sb93\sa0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs24
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb1\sa0\ai0\ab\rtlch \ltrch\loch\fs18
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0\sb93\sa0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch
 APRESENTA\u199\'c7\u195\'c3O}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\i0\b\rtlch \ltrch\loch\fs20
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\ai0\ab\rtlch \ltrch\loch\fs20
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl355\slmult1\qj\li103\ri114\lin103\rin114\fi0\sb185\sa0{\expnd0\expndtw0\b0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl352\slmult1\qj\li103\ri114\lin103\rin114\fi0\sb185\sa0{\expnd0\expndtw0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Advogado formado pela UPIS, em junho de 2015 e p\u243\'f3s graduando em Direito Civil e Processual Civil,}{\expnd0\expndtw1\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 com ampla experi\u234\'eancia nas \u225\'e1reas C\u237\'edvel e Empresarial como advogado, atualmente atuando de forma}{\expnd0\expndtw1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
@@ -108,107 +116,96 @@ como advogado nas}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 e}{\expnd0\expndtw-3\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Trabalhista.}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb2\sa0\i0\b0\rtlch \ltrch\loch\fs25
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb2\sa0\ai0\ab0\rtlch \ltrch\loch\fs25
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qj\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qj\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 FORMA\u199\'c7\u195\'c3O}{\expnd0\expndtw-1\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 ACAD\u202\'caMICA}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb8\sa0\i0\b\rtlch \ltrch\loch\fs26
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb8\sa0\ai0\ab\rtlch \ltrch\loch\fs26
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Ensino Fundamental}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb8\sa0\i0\b0\rtlch \ltrch\loch\fs24
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb8\sa0\ai0\ab0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 IDIOMAS}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb1\sa0\i0\b\rtlch \ltrch\loch\fs26
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb1\sa0\ai0\ab\rtlch \ltrch\loch\fs26
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl240\slmult1\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl240\slmult1\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Ingl\u234\'eas}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 \u8211\'96}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Intermedi\u225\'e1rio}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl240\slmult1\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb127\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl240\slmult1\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb127\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Espanhol}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 \u8211\'96}{\expnd0\expndtw-1\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
 Intermedi\u225\'e1rio}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\sb6\sa0\i0\b0\rtlch \ltrch\loch\fs35
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\sb6\sa0\ai0\ab0\rtlch \ltrch\loch\fs35
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 CURSOS}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 GIT}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 GITHUB}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 LINGUAGENS DE PROGRAMA\u199\'c7\u195\'c3O}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Java; Python3; Python2; HTML e CSS; Swift; SQL; JavaScript; Bash;  }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-PHP; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Ruby; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-JSON}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\ab\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+Java; Python3; Python2; HTML e CSS; Swift; SQL; JavaScript; Bash;  PHP; Ruby; JSON}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 FRAMEWORKS}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Django; Flask; Jquery; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-React Native/JS; Vue JS; Angular;}{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Rails; Mongo DB; Node JS; }
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\fs22
- }{\expnd0\expndtw0\i0\b\ab\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+Django; Flask; Jquery; React Native/JS; Vue JS; Angular;Rails; Mongo DB; Node JS; }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\fs22
+ }{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 CYBERSEGURAN\u199\'c7A}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-CompTIA Security+ (SY0-501); Cisco Cybersecurity Introduction; Nessus; Nmap; Docker; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-OpenVAS; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Criptografia; }{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Burpsuite; Wireshark}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\ab\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+CompTIA Security+ (SY0-501); Cisco Cybersecurity Introduction; Nessus; Nmap; Docker; OpenVAS; Criptografia; Burpsuite; Wireshark}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\b\charscalex100\rtlch \ltrch\loch\fs22
 INFORM\u193\'c1TICA}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-Windows; Linux(Mint, Debian, Ubuntu}{\expnd0\expndtw0\i0\b0\ab0\charscalex100\rtlch \ltrch\loch\fs22
-); Firewall;}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li823\ri0\lin823\rin0\fi0\sb101\sa0\b0\ab0\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li1285\ri0\lin1285\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\b0\charscalex100\rtlch \ltrch\loch\fs22
+Windows; Linux(Mint, Debian, Ubuntu); Firewall;}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li823\ri0\lin823\rin0\fi0\sb101\sa0\ab0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\tx811\tx812\li926\ri0\lin926\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\ulth\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
-E}{\expnd0\expndtw0\i0\ulth\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
-XPERI\u202\'caNCIAS PR\u193\'c1TICAS}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
-P}{\expnd0\expndtw0\i0\ulnone\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
-ROGRAMA ALUNO TUTOR DE TECNOLOGIAS GOOGLE}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\tx811\tx812\li926\ri0\lin926\rin0\fi0\sb101\sa0{\expnd0\expndtw0\i0\ulth\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+EXPERI\u202\'caNCIAS PR\u193\'c1TICAS}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+PROGRAMA ALUNO TUTOR DE TECNOLOGIAS GOOGLE}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
 CAMPEONATOS DE ROB\u211\'d3TICA( FLL E OBR)}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b\ab0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1634\ri0\lin1634\rin0\fi-348\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
 TREINO DE PENTEST EM M\u193\'c1QUINAS VIRTUAIS(TRY HACK ME | HACK THE BOX)}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li0\ri0\lin0\rin0\fi0\sb101\sa0\ulnone\ulc0\b0\ab0\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li0\ri0\lin0\rin0\fi0\sb101\sa0\ulnone\ulc0\ab0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0\b0\ab0\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li811\ri0\lin811\rin0\fi-349\sb101\sa0\ab0\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li0\ri0\lin0\rin0\fi0\sb101\sa0\i0\b0\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl-267\slmult0\tx811\tx812\li0\ri0\lin0\rin0\fi0\sb101\sa0\ai0\ab0\rtlch \ltrch\loch\fs22
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 S\u205\'cdNTESE}{\expnd0\expndtw-3\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 DE}{\expnd0\expndtw-2\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
  }{\expnd0\expndtw0\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 QUALIFICA\u199\'c7\u213\'d5ES}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1646\ri700\lin1646\rin700\fi-348\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1646\ri700\lin1646\rin700\fi-348\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\rtlch \ltrch\loch
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qj\tx812\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qj\tx812\li103\ri0\lin103\rin0\fi0{\expnd0\expndtw0\i0\ulth\ulc0\b\charscalex100\rtlch \ltrch\loch\fs22
 CONTATO}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain \dbch\af4\dbch\af4\loch\f4 \u8226\'95\tab}\ilvl0\ls2 \li1543\ri700\lin1543\rin700\fi-360\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
-G}{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
-ithub: https://github.com/Syri-Yagowo/}
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046{\listtext\pard\plain \dbch\af4\dbch\af4\loch\f4 \u8226\'95\tab}\ilvl0\ls2 \li1543\ri700\lin1543\rin700\fi-360\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
-L}{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
-inkedIn: }{{\field{\*\fldinst HYPERLINK "https://www.linkedin.com/in/yago-victor-0892481b4/" }{\fldrslt {\cf9\ul\ulc0\langfe255\alang255\lang255\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain \b0\dbch\af5\fs22 \u8226\'95\tab}\ilvl0\ls2 \li1543\ri700\lin1543\rin700\fi-360\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+Github: https://github.com/}{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+Intern-Yago}{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+/}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046{\listtext\pard\plain \b0\dbch\af5\fs22 \u8226\'95\tab}\ilvl0\ls2 \li1543\ri700\lin1543\rin700\fi-360\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361{\expnd0\expndtw0\i0\ulnone\ulc0\b0\charscalex100\rtlch \ltrch\loch\fs22
+LinkedIn: }{{\field{\*\fldinst HYPERLINK "https://www.linkedin.com/in/yago-victor-0892481b4/" }{\fldrslt {\cf9\expnd0\expndtw0\i0\ulnone\ulc0\b0\langfe255\charscalex100\fs22\lang255\cf9\expnd0\expndtw0\i0\ulnone\ulc0\b0\langfe255\charscalex100\rtlch \ltrch\loch\fs22\lang255
 https://www.linkedin.com/in/yago-victor-0892481b4/}}}}
-\par \shpwr2\shpwrk3\shpbypara\shpbyignore\shptop104\shpbxcolumn\shpbxignore\shpleft231\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\ulnone\ulc0\rtlch \ltrch\loch
-{\*\flymaincnt5\flyanchor0\flycntnt}{\shp{\*\shpinst\shpwr2\shpwrk3\shpbypara\shpbyignore\shptop104\shpbottom4847\shpbxcolumn\shpbxignore\shpleft231\shpright9295{\sp{\sn shapeType}{\sv 75}}{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}{\sp{\sn pib}{\sv {\pict\picscalex58\picscaley58\piccropl0\piccropr0\piccropt0\piccropb0\picw1026\pich537\picwgoal15392\pichgoal8056\pngblip
+\par \shpwr2\shpwrk3\shpbypara\shpbyignore\shptop104\shpbxcolumn\shpbxignore\shpleft231\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\ulnone\ulc0\rtlch \ltrch\loch
+{\*\flymaincnt5\flyanchor4}{\shp{\*\shpinst\shpwr2\shpwrk3\shpbypara\shpbyignore\shptop104\shpbottom4847\shpbxcolumn\shpbxignore\shpleft231\shpright9295{\sp{\sn shapeType}{\sv 75}}{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}{\sp{\sn pib}{\sv {\pict\picscalex58\picscaley58\piccropl0\piccropr0\piccropt0\piccropb0\picw1026\pich537\picwgoal15392\pichgoal8056\pngblip
 89504e470d0a1a0a0000000d49484452000004020000021908060000003ce19dd7000000097048597300000ec300000ec301c76fa864000165a249444154789c
 ecdd075c5457dac0e1fff4193a4807111010ec1d7b2f31893dd19866bae9d934d3b3c926d9942f7db39b6a7a8f5d63efbd770545b1a26241e94cffee0ca874d0
 9868e47df6371b9cb973ee39e79e7be7beef6ddaa2a22227420821841042082184a813b41a8de652d7410821841042082184107f11ad4aa5bad4751042082184
@@ -1642,8 +1639,8 @@ c88a3011404444444444446445980820222222222222b2224c041011111111111159112602888888
 22222bc244001111111111119115612280888888888888c88a3011404444444444446445980820222222222222b2224c04101111111111115911260288888888
 888888ac0813014444444444444456848900222222222222222bf23f4eb471be271169280000000049454e44ae426082}}}}}
 
-\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\ulnone\ulc0\rtlch \ltrch\loch
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\qj\tx812\li823\ri700\lin823\rin700\fi-361\ulnone\ulc0\rtlch \ltrch\loch
 
-\par \sect\sectd\sectunlocked1\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\pgndec\sbknone\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af8\langfe2052\dbch\af6\afs24\alang1081\loch\f0\hich\af0\fs24\lang1046\sl240\slmult1\li2227\ri0\lin2227\rin0\fi0\sb52\sa0\rtlch \ltrch\loch
+\par \sect\sectd\sectunlocked1\pgwsxn11906\pghsxn16838\marglsxn1200\margrsxn1180\margtsxn860\margbsxn280\ltrsect\sbknone\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1081\dbch\af8\afs24\alang1046\loch\f0\fs24\lang1046\sl240\slmult1\li2227\ri0\lin2227\rin0\fi0\sb52\sa0\rtlch \ltrch\loch
 
 \par }
