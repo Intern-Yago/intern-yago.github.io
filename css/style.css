@@ -48,6 +48,7 @@ i{
     user-select: none;
     cursor: default;
     transition: 1s;
+    
 }
 i:hover{
     transition: 0s;
