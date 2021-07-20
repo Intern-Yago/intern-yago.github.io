@@ -1,12 +1,16 @@
 window.onload = addElemento;
+var div=10
 function addElemento(){
-    var largura = document.body.clientWidth
+    var largura = document.body.clientHeight
     console.log(largura)
-    console.log(largura/45) 
     var divAtual = document.getElementById('row')
     var cont = '<i class="fa fa-linux" aria-hidden="true"></i><i class="fa fa-windows" aria-hidden="true"></i><i class="fa fa-android" aria-hidden="true"></i><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-stack-overflow" aria-hidden="true"></i><i class="fa fa-code" aria-hidden="true"></i><i class="fa fa-terminal" aria-hidden="true"></i></i><i class="fa fa-database" aria-hidden="true"></i><i class="fa fa-wifi" aria-hidden="true"></i><i class="fa fa-bluetooth" aria-hidden="true"></i>'
-    for(let i =0; i<(largura/60);i++){
-        var divNova = document.createElement("div")
+    console.log(largura)
+    if(largura >= 1600){
+        div = 0
+    }
+    for(let i =0; i<largura/div; i++){
+        var divNova = document.createElement("span")
         divNova.innerHTML = cont
         divAtual.appendChild(divNova)
     }
@@ -22,3 +26,4 @@ window.addEventListener("scroll", () =>{
     }
 
 })
+

@@ -1,14 +1,23 @@
 @charset "UTF-8";
+:root{
+    --b:white;
+    --cc:lightgray;
+    --mt:rgb(165,163,165);
+    --pc:rgb(59, 59, 59);
+    --p:rgba(0, 0, 0, 0.753);
+    --aes:rgb(13, 0, 194);
+}
 /*Formatando Geral*/
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 0;
+    margin: 0;
 }
 hr{
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: var(--p);
     height: 2px;
 }
 h1, h2{
@@ -22,15 +31,17 @@ img{
     width: 25px;
 }
 body{
-    background-color: rgb(59, 59, 59);
+    background-color: var(--pc);
     margin: 0;
 }
 header{
     margin: 10px;
 }
 main{
-    background-color: white;
-    margin: 10px;
+    background-color: var(--b);
+    margin: 25px 10px 10px 10px;
+    position: relative;
+    z-index: 2;
 }
 div{
     padding-bottom: 20px;
@@ -38,22 +49,19 @@ div{
 /*Formatando os icons_background*/
 section#back{
     user-select: none;
-    right: -100px;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
 }
-section#back .row{
-    position: relative;
-    top: -65%;
+section#back #row{
+    position: absolute;
     width: 100%;
-    display: flex;
-    padding: 0 5px;
+    padding: 0 0px;
     font-size: 30px;
+    z-index: 0;
+    
 }
 i{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
     padding: 0 5px;
     user-select: none;
     cursor: default;
@@ -62,11 +70,14 @@ i{
 }
 i:hover{
     transition: 0s;
-    color: #0f0;
-    text-shadow: 0 0 120px #0f0;
+    color: var(--aes);
+    text-shadow: 0 0 45px var(--aes);
 }
 /*Formatando o Yago*/
-
+#sobre .container{
+    display: flex;
+    align-items: flex-end;
+}
 #sobre h1{
     padding-top: 10px;
 }
@@ -77,45 +88,45 @@ i:hover{
 
 /*Formatando o knowledge*/
 #knowledge{
-    padding:0px 0px 20px 0px;
     /*top - left - bottom - right*/
     border-top: 10px solid rgb(59, 59, 59);
-}
-.makes{
-    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.466);;
-    /*horizontal - vertical - borro - espalhamento*/
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    padding-right: 0;
-    width: 400px;
-    background-color: rgb(165,163,165);
     text-align: center;
 }
+#knowledge .exc{
+    text-align: justify;
+}
+.makes{
+    display: inline-block;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.466);
+    /*horizontal - vertical - borro - espalhamento*/
+    margin: 30px 100px 0 100px;
+    padding: 5px 10px 10px 10px;
+    background-color: rgb(165,163,165);
+    width: 250px;
+}
 .makes h3{
-    margin-bottom: 5px;
+    padding-bottom: 5px;
     text-decoration:underline double;
 }
 #knowledge ul{
+    padding: 8px 0 5px 0;
     list-style: none;
-}
-#knowledge li{
     background-color: lightgray;
-    width: 300px;
 }
 
 /*Formatando o Feitos*/
 #feitos{
-    border-top: 10px solid rgb(59, 59, 59);
+    border-top: 10px solid var(--pc);
 }
-
 
 /*Formatando o footer*/
 footer{
-    margin-top: 30px;
+    margin-top: 50px;
     color: aliceblue;
     background-color: black;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 #contato{
     padding: 15px;
@@ -151,6 +162,7 @@ footer{
     border-radius: 30px;
     opacity: 0;
     transition: all .3s;
+    z-index: 3;
 }
 .arrow-top.active img{
     opacity: 1;
