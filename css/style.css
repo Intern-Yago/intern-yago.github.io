@@ -11,8 +11,11 @@ hr{
     background-color: rgba(0, 0, 0, 0.753);
     height: 2px;
 }
-h1, h2, h3{
-    margin-top: 20px; 
+h1, h2{
+    padding: 15px 10px 5px 10px;
+}
+p{
+    padding: 5px 10px 5px 10px;
 }
 img{
     padding-top: 15px;
@@ -20,9 +23,14 @@ img{
 }
 body{
     background-color: rgb(59, 59, 59);
+    margin: 0;
+}
+header{
+    margin: 10px;
 }
 main{
     background-color: white;
+    margin: 10px;
 }
 div{
     padding-bottom: 20px;
@@ -31,7 +39,6 @@ div{
 section#back{
     user-select: none;
     right: -100px;
-    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -42,7 +49,7 @@ section#back .row{
     top: -65%;
     width: 100%;
     display: flex;
-    padding: 0;
+    padding: 0 5px;
     font-size: 30px;
 }
 i{
@@ -67,13 +74,34 @@ i:hover{
     width: 300px;
     border-radius: 100%;
 }
-#sobre p{
-    display: inline;
-}
+
 /*Formatando o knowledge*/
 #knowledge{
     padding:0px 0px 20px 0px;
+    /*top - left - bottom - right*/
     border-top: 10px solid rgb(59, 59, 59);
+}
+.makes{
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.466);;
+    /*horizontal - vertical - borro - espalhamento*/
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 0;
+    width: 400px;
+    background-color: rgb(165,163,165);
+    text-align: center;
+}
+.makes h3{
+    margin-bottom: 5px;
+    text-decoration:underline double;
+}
+#knowledge ul{
+    list-style: none;
+}
+#knowledge li{
+    background-color: lightgray;
+    width: 300px;
 }
 
 /*Formatando o Feitos*/
