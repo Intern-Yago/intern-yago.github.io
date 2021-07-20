@@ -1,10 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
-    --b:white;
-    --cc:lightgray;
-    --mt:rgb(165,163,165);
-    --pc:rgb(59, 59, 59);
-    --p:rgba(0, 0, 0, 0.753);
+    --lg:lightgray;
+    --c:rgb(165,163,165);
+    --ces:rgb(59, 59, 59);
+    --tp:rgba(0, 0, 0, 0.4);
     --aes:rgb(13, 0, 194);
 }
 /*Formatando Geral*/
@@ -17,10 +18,11 @@ html{
     margin: 0;
 }
 hr{
-    background-color: var(--p);
+    background-color: black;
     height: 2px;
 }
 h1, h2{
+    font-family: 'Bebas Neue', cursive;
     padding: 15px 10px 5px 10px;
 }
 p{
@@ -31,14 +33,14 @@ img{
     width: 25px;
 }
 body{
-    background-color: var(--pc);
+    background-color: var(--ces);
     margin: 0;
 }
 header{
     margin: 10px;
 }
 main{
-    background-color: var(--b);
+    background-color: white;
     margin: 25px 10px 10px 10px;
     position: relative;
     z-index: 2;
@@ -50,18 +52,20 @@ div{
 section#back{
     user-select: none;
     padding: 0;
+    display: flex;
+    align-items: flex-start;
     overflow: hidden;
 }
 section#back #row{
     position: absolute;
     width: 100%;
-    padding: 0 0px;
+    padding: 0 5px;
     font-size: 30px;
     z-index: 0;
     
 }
 i{
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--tp);
     padding: 0 5px;
     user-select: none;
     cursor: default;
@@ -82,14 +86,17 @@ i:hover{
     padding-top: 10px;
 }
 #sobre img#foto-me{
+    margin-left: 10px;
     width: 300px;
+    height: 300px;
     border-radius: 100%;
+    filter: drop-shadow(0px 0.5px 4px black);
 }
 
 /*Formatando o knowledge*/
 #knowledge{
     /*top - left - bottom - right*/
-    border-top: 10px solid rgb(59, 59, 59);
+    border-top: 10px solid var(--ces);
     text-align: center;
 }
 #knowledge .exc{
@@ -97,11 +104,11 @@ i:hover{
 }
 .makes{
     display: inline-block;
-    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.466);
+    box-shadow: 2px 2px 6px 1px var(--tp);
     /*horizontal - vertical - borro - espalhamento*/
-    margin: 30px 100px 0 100px;
+    margin: 30px 20px 0 20px;
     padding: 5px 10px 10px 10px;
-    background-color: rgb(165,163,165);
+    background-color: var(--c);
     width: 250px;
 }
 .makes h3{
@@ -111,18 +118,22 @@ i:hover{
 #knowledge ul{
     padding: 8px 0 5px 0;
     list-style: none;
-    background-color: lightgray;
+    background-color: var(--lg);
 }
 
 /*Formatando o Feitos*/
 #feitos{
-    border-top: 10px solid var(--pc);
+    border-top: 10px solid var(--ces);
 }
 
 /*Formatando o footer*/
+address{
+    font-style: italic;
+
+}
 footer{
     margin-top: 50px;
-    color: aliceblue;
+    color: white;
     background-color: black;
     text-align: center;
     position: relative;
@@ -139,12 +150,12 @@ footer{
 }
 
 #contato a, .logo{
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     -webkit-transition: all 0.2s ease-in;
 }
 #contato a:hover, #contato a:hover .logo{
-    text-shadow: 0.5px 1px 1px rgb(230, 218, 218);
+    text-shadow: 0.5px 1px 1px white;
     text-decoration: underline;
     font-size: 17px;
     width: 30px;
@@ -157,7 +168,7 @@ footer{
     position: fixed;
     right:40px;
     bottom: 40px;
-    background: rgb(59, 59, 59);
+    background: var(--ces);
     padding: 10px;
     border-radius: 30px;
     opacity: 0;

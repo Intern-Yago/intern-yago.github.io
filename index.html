@@ -25,7 +25,7 @@
             <h1>Quem é Yago?</h1>
             <hr>
             <div class="container">
-                <img src="imagens/me.png" alt="Foto de Yago Victor" id="foto-me">
+                <img src="imagens/me.png" title="Foto de Yago Victor" alt="Foto Yago" id="foto-me">
                 <p class="informacao">Lorem ipsum dolor sit amet consectet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem repellendus nostrum officiis aperiam iure cupiditate aliquid at blanditiis sapiente. Inventore qui illum quaerat voluptates debitis tempora optio molestias beatae?</p>
             </div>
         </div>
@@ -33,19 +33,6 @@
             <h2 class="exc">Conhecimentos</h2>
             <hr>
             <p class="exc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi error ad hic at harum. Eligendi amet modi nesciunt rerum molestiae commodi itaque odio dignissimos cumque? Quas veritatis dicta deserunt odit!</p>
-            <div class="lang makes line">
-                <h3 >Linguagens</h3>
-                <ul> 
-                    <li>Python</li>
-                    <li>HTML/CSS</li>
-                    <li>JavaScript</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                    <li>Swift</li>
-                    <li>SQL</li>
-                    <br>
-                </ul>
-            </div>
             <div class="soft makes line">
                 <h3>Softwares</h3>
                 <ul>
@@ -59,6 +46,32 @@
                     <li>Flask</li>
                 </ul>
             </div>
+            <div class="lang makes line">
+                <h3 >Linguagens</h3>
+                <ul> 
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>Swift</li>
+                    <li>SQL</li>
+                    <br>
+                </ul>
+            </div>
+            <div class="security makes">
+                <h3>Cybersegurança</h3>
+                <ul>
+                    <li>Nmap</li>
+                    <li>Nessus</li>
+                    <li>Burpsuite</li>
+                    <li>John The Ripper</li>
+                    <li>Hydra</li>
+                    <li>OpenVAS</li>
+                    <li>Criptografia</li>
+                    <br>
+                </ul>
+            </div>
         </div>
         <div id="feitos">  
             <h2>Feitos</h2>  
@@ -67,7 +80,7 @@
         </div>
     </main>
     <footer> 
-        <div id="contato">
+        <address id="contato">
             <p>Copyright &copy; 2021 - by Yago Victor</p>
             <a href="https://www.linkedin.com/in/yago-victor-0892481b4/" class="slub linkedin" target="_blank"> 
                 <img src="imagens/linkedin_white.png" alt="logo Linkedin" class="logo">
@@ -84,20 +97,10 @@
                 yago.commercial
             </a>
             <br>
-        </div>
+        </address>
     </footer>
     <a href="#" class="arrow-top">
     <img src="./imagens/top_white.png" alt="Arrow to top">
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-        var ultimoScroll;
-var dialogPosition = $('#').offset().top;
-var dialogHeight = $('#seu_dialog').outerHeight();
-$(window).on('scroll', function () {
-    var scroll = $(this).scrollTop();
-    if (scroll > dialogPosition + dialogHeight.outerHeight() || scroll < dialogPosition) $(window).scrollTop(ultimoScroll);
-    else ultimoScroll = scroll;
-});
-    </script>
 </body>
 </html>
