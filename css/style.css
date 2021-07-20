@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
+    /*Var de cor*/
     --lg:lightgray;
     --c:rgb(165,163,165);
     --ces:rgb(59, 59, 59);
     --tp:rgba(0, 0, 0, 0.4);
     --aes:rgb(13, 0, 194);
+    /*Margem*/
+    --margem: 0 25px 0 25px;
+    --shadow: 2px 2px 6px 1px var(--tp);
 }
 /*Formatando Geral*/
 html{
@@ -20,10 +24,12 @@ html{
 hr{
     background-color: black;
     height: 2px;
+    margin: var(--margem);
 }
 h1, h2{
     font-family: 'Bebas Neue', cursive;
     padding: 15px 10px 5px 10px;
+    margin: var(--margem);
 }
 p{
     padding: 5px 10px 5px 10px;
@@ -34,7 +40,6 @@ img{
 }
 body{
     background-color: var(--ces);
-    margin: 0;
 }
 header{
     margin: 10px;
@@ -77,22 +82,34 @@ i:hover{
     color: var(--aes);
     text-shadow: 0 0 45px var(--aes);
 }
-/*Formatando o Yago*/
+/*Formatando o Sobre*/
 #sobre .container{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+.container{
+    margin-top: 20px;
 }
 #sobre h1{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 #sobre img#foto-me{
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
     width: 300px;
     height: 300px;
     border-radius: 100%;
     filter: drop-shadow(0px 0.5px 4px black);
 }
-
+#sobre p{
+    margin-right: 30px;
+}
+.informacao{
+    background-color: var(--lg);
+    border: solid var(--c);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
 /*Formatando o knowledge*/
 #knowledge{
     /*top - left - bottom - right*/
@@ -104,9 +121,10 @@ i:hover{
 }
 .makes{
     display: inline-block;
-    box-shadow: 2px 2px 6px 1px var(--tp);
+    box-shadow: var(--shadow);
     /*horizontal - vertical - borro - espalhamento*/
-    margin: 30px 20px 0 20px;
+    margin: var(--margem);
+    margin-top: 15px;
     padding: 5px 10px 10px 10px;
     background-color: var(--c);
     width: 250px;
@@ -120,10 +138,15 @@ i:hover{
     list-style: none;
     background-color: var(--lg);
 }
-
+#knowledge p{
+    margin: var(--margem);
+}
 /*Formatando o Feitos*/
 #feitos{
     border-top: 10px solid var(--ces);
+}
+#feitos p{
+    margin: var(--margem);
 }
 
 /*Formatando o footer*/
@@ -178,3 +201,5 @@ footer{
 .arrow-top.active img{
     opacity: 1;
 }
+
+
