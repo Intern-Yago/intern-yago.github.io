@@ -1,12 +1,12 @@
 window.onload = addElemento;
-var div=124000
+var div=140000
 function addElemento(){
     var largura = document.body.clientHeight
     console.log(largura)
     var divAtual = document.getElementById('row')
     var cont = '<i class="fa fa-linux" aria-hidden="true"></i><i class="fa fa-windows" aria-hidden="true"></i><i class="fa fa-android" aria-hidden="true"></i><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-stack-overflow" aria-hidden="true"></i><i class="fa fa-code" aria-hidden="true"></i><i class="fa fa-terminal" aria-hidden="true"></i></i><i class="fa fa-database" aria-hidden="true"></i><i class="fa fa-wifi" aria-hidden="true"></i><i class="fa fa-bluetooth" aria-hidden="true"></i>'
     console.log(largura)
-    if(largura > 1200){
+    if(largura > 1700){
         div = 0
     }
     for(let i =1; i<=div/largura; i++){

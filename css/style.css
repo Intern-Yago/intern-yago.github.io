@@ -46,9 +46,12 @@ header{
 }
 main{
     background-color: white;
-    margin: 25px 10px 10px 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
     position: relative;
     z-index: 2;
+    min-width: 280px;
 }
 div{
     padding-bottom: 20px;
@@ -94,6 +97,7 @@ i:hover{
     padding-top: 15px;
 }
 #sobre img#foto-me{
+    padding-top: 5px;
     margin-left: 30px;
     margin-right: 10px;
     width: 300px;
@@ -186,6 +190,7 @@ footer{
 
 /*Formatando a flecha*/
 .arrow-top img{
+    user-select: none;
     width: 50px;
     height: 50px;
     position: fixed;
@@ -200,6 +205,32 @@ footer{
 }
 .arrow-top.active img{
     opacity: 1;
+    user-select: none;
 }
 
-
+@media (max-width: 600px) and (min-width: 280px){
+    #sobre .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sobre img#foto-me{
+        width: 200px;
+        height: 200px;
+    }
+    #sobre .informacao{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .makes{
+        width: 65%;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+}
