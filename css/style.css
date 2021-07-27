@@ -93,8 +93,25 @@ i:hover{
 .container{
     margin-top: 20px;
 }
+#sobre a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#sobre a:hover{
+    text-decoration: underline;
+}
 #sobre h1{
     padding-top: 15px;
+    display: inline-block;
+}
+#sobre div#atua{
+    display: inline-block;
+    position: absolute;
+    margin-right: 30px;
+    top: 40px;
+    right: 10px;
+    font-size: small;
 }
 #sobre img#foto-me{
     padding-top: 5px;
@@ -144,6 +161,14 @@ i:hover{
 }
 #knowledge p{
     margin: var(--margem);
+}
+#knowledge a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#knowledge a:hover{
+    text-decoration: underline;
 }
 /*Formatando o Feitos*/
 #feitos{
@@ -209,6 +234,9 @@ footer{
 }
 
 @media (max-width: 600px) and (min-width: 280px){
+    #sobre div#atua{
+        visibility: hidden;
+    }
     #sobre .container{
         flex-direction: column;
         justify-content: center;
