@@ -1,5 +1,5 @@
 window.onload = addElemento;
-var div=140000
+var div=190000
 function addElemento(){
     var largura = document.body.clientHeight
     console.log(largura)
@@ -9,7 +9,7 @@ function addElemento(){
     if(largura > 1700){
         div = 0
     }
-    for(let i =1; i<=div/largura; i++){
+    for(let i =0; i<=div/largura; i++){
         var divNova = document.createElement("span")
         divNova.innerHTML = cont
         divAtual.appendChild(divNova)
