@@ -243,7 +243,6 @@ footer{
     display: flex;
     justify-content: center;
     width: 43.5%;
-    height: 100%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
