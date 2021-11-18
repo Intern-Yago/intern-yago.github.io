@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="latim">
 <head>
+    <meta name="theme-color" content="#3b3b3b">
+    <link rel="apple-touch-icon" href="/imagens/fav.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://intern-yago.github.io/">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yago Victor</title>
+    <meta name="description" content="Portfolio Yago Victor">
+    <meta name="keywords" content="portfolio, Yago, tecnologias, estagiário, TI">
     <link rel="shortcut icon" href="imagens/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8f79cb59a9.js" crossorigin="anonymous"></script>
@@ -15,6 +21,19 @@
     </div>
 </section>
 <body>
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("sw.js").then(
+                function(){
+                    console.log("Service worker registered");
+                }
+            ).catch(
+                function(){
+                    console.log("Service worker failed");
+                }
+            )
+        }
+    </script>
     <header>
         <nav>
             <a href="#" title="blog"></a>

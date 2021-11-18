@@ -1,0 +1,17 @@
+{
+    "name":"Yago Victor",
+    "short_name":"Yago",
+    "theme_color":"#3b3b3b",
+    "background_color":"#3b3b3b",
+    "display":"standalone",
+    "scope":"/",
+    "lang":"pt-BR",
+    "orientation":"any",
+    "icons":[
+        {
+            "src":"/imagens/fav.png",
+            "size":"512x512",
+            "type":"image/png"
+        }
+    ]
+}
