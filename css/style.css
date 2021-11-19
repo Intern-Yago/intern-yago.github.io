@@ -14,8 +14,8 @@
 }
 /*Formatando Geral*/
 html{
-    scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 *{
     padding: 0;
@@ -65,9 +65,10 @@ section#back{
     overflow: hidden;
 }
 section#back #row{
+    overflow: hidden;
     position: absolute;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 18px;
     font-size: 30px;
     z-index: 0;
     
@@ -172,13 +173,20 @@ i:hover{
 }
 /*Formatando o Feitos*/
 #feitos{
-    height: 400px;
+    overflow: hidden;
+    height: 461px;
     border-top: 10px solid var(--ces);
 }
 #feitos *{
     margin: var(--margem);
 }
 
+.carousel{
+    padding-top: 10px;
+}
+.slick-track{
+    height: 400px;
+}
 /*Formatando o footer*/
 address{
     font-style: italic;
@@ -233,95 +241,14 @@ footer{
     opacity: 1;
     user-select: none;
 }
-.flip-container{
-    width: 500px;
-    height: 200px;
-    perspective: 1000px;
+.slick-prev:before, .slick-next:before{
+    background-color: var(--ces);
+    border-radius: 10px;
 }
-.flipper{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 43.5%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-#switch:checked ~ .flip-container .flipper {
-    transform: rotateY(180deg);
-  }
 
-.front{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-.back{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    backface-visibility: hidden;
-    text-align: center;
-    background-color: blue;
-    width: 475px;
-    height: 267px;
-    transform: rotateY(180deg);
-}
-.back span{
-    font-family: 'Bebas Neue', cursive;
-}
-.icons{
-    padding-top: 10px;
-    padding-bottom: 0;
-}
-.sm{
-    font-size: 30px;
-    transition: 0.2s;
-}
-.link{
-    cursor: pointer;
-    transition: 0.2s;
-}
-.sm:hover{
-    font-size: 40px;
-    transition: 0.2s;
-}
-.link:hover{
-    transition: 0.2s;
-    color: white;
-}
+
 
 @media (max-width: 600px) and (min-width: 280px){
-    #switch{
-        display: none;
-    }
-    #switch:checked ~ .flip-container .flipper {
-        transform: rotateY(0deg);
-    }
-    .sm{
-        font-size: 20px;
-    }
-    .link{
-        cursor: pointer;
-    }
-    .sm:hover{
-        font-size: 25px;
-    }
-    .link:hover{
-        color: white;
-    }
-    .flipper{
-        justify-content: center;
-    }
-    .front{
-        display: none;
-    }
-    .back{
-        width: 200px;
-        transform: none;
-    }
     #sobre div#atua{
         visibility: hidden;
     }

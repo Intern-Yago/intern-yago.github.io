@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html lang="latim">
+<html lang="pt-br">
 <head>
+    <!-- PWA -->
     <meta name="theme-color" content="#3b3b3b">
     <link rel="apple-touch-icon" href="/imagens/fav.png">
     <link rel="manifest" href="manifest.json">
     <link rel="canonical" href="https://intern-yago.github.io/">
+
+    <!--SEO-->
+    <meta name="description" content="Portfolio Yago Victor">
+    <meta name="keywords" content="portfolio, Yago, tecnologias, estagiário, TI">
+
+    <!-- CRIAÇÃO PADRÃO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yago Victor</title>
-    <meta name="description" content="Portfolio Yago Victor">
-    <meta name="keywords" content="portfolio, Yago, tecnologias, estagiário, TI">
+
+    <!--LINKS CSS/JS-->
     <link rel="shortcut icon" href="imagens/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--FONT AWESOME EMOJIS-->
     <script src="https://kit.fontawesome.com/8f79cb59a9.js" crossorigin="anonymous"></script>
+    
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <!-- SLICK JS-->
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
+    integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
     
 </head>
 <section id="back">
@@ -99,26 +122,11 @@
         <div id="feitos">  
             <h2>Feitos</h2>  
             <hr>
-            <input type="checkbox" id="switch">
-            <label class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <iframe src="https://internyagocalculadorajs.herokuapp.com/" allow="fullscreen" height="267px" width="475px"></iframe>
-                    </div>
-                    <div class="back">
-                        <h2>CalculadoraJS</h2>
-                        <span>
-                            Calculadora feita utilizando ExpressJS e NodeJS para a criação do servidor web,
-                            Electron para poder criar um app desktop e a biblioteca JQuery para ajudar no desenvolvimento,
-                            além do HTML e CSS
-                        </span>
-                        <div class="icons">
-                            <a href="https://internyagocalculadorajs.herokuapp.com/"class="sm" target="_blank"><i class="link fas fa-globe"></i></a>
-                            <a href="https://github.com/Intern-Yago/calculadoraJS"class="sm" target="_blank"><i class="link fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </label>
+            <div class="carousel">
+                <iframe src="https://internyagocalculadorajs.herokuapp.com/" allow="fullscreen" ></iframe>
+                <iframe src="https://intern-yago.github.io/flappy_Bird/" allow="fullscreen"></iframe>
+                <iframe src="https://intern-yago.github.io/copy_mini-video-me/" allow="fullscreen; camera"></iframe>
+            </div>
         </div>
     </main>
     <footer> 
@@ -142,6 +150,7 @@
         </address>
     </footer>
     <a href="#" class="arrow-top">
+    <script src="style_slick.js"></script>
     <img src="./imagens/top_white.png" alt="Arrow to top">
     <script src="script.js"></script>
 </body>
