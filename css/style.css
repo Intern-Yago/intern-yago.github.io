@@ -17,6 +17,9 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+html::after{
+    overflow-x: hidden;
+}
 *{
     padding: 0;
     margin: 0;
@@ -72,6 +75,9 @@ section#back #row{
     font-size: 30px;
     z-index: 0;
     
+}
+section::after{
+    overflow-x: hidden;
 }
 i{
     color: var(--tp);
@@ -193,12 +199,13 @@ address{
 
 }
 footer{
+    width: 100%;
     margin-top: 50px;
     color: white;
     background-color: black;
     text-align: center;
     position: relative;
-    z-index: 2;
+    z-index: 99;
 }
 #contato{
     padding: 15px;
@@ -245,8 +252,6 @@ footer{
     background-color: var(--ces);
     border-radius: 10px;
 }
-
-
 
 @media (max-width: 600px) and (min-width: 280px){
     #sobre div#atua{
