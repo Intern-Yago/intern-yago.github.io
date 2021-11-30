@@ -254,6 +254,9 @@ footer{
 }
 
 @media (max-width: 600px) and (min-width: 280px){
+    section{
+        display: none;
+    }
     #sobre div#atua{
         visibility: hidden;
     }
