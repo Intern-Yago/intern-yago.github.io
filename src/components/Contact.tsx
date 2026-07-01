@@ -127,10 +127,13 @@ const Contact: React.FC = () => {
               <div className="p-3 bg-white/5 border border-white/5 rounded-lg text-cyber-cyan">
                 <Mail className="w-5 h-5" />
               </div>
-              <div>
-                <p className="text-[10px] font-mono text-gray-500 uppercase tracking-widest">E-MAIL DIRETO</p>
-                <a href="mailto:yagodev.com@gmail.com" className="text-sm font-medium text-white hover:text-cyber-cyan transition-colors duration-300">
-                  yagodev.com@gmail.com
+              <div className="flex flex-col">
+                <p className="text-[10px] font-mono text-gray-500 uppercase tracking-widest mb-0.5">E-MAILS DE CONTATO</p>
+                <a href="mailto:yago.commercial@yagodev.com" className="text-sm font-medium text-white hover:text-cyber-cyan transition-colors duration-300">
+                  yago.commercial@yagodev.com <span className="text-[9px] font-mono text-cyber-magenta ml-1">// COMERCIAL</span>
+                </a>
+                <a href="mailto:yagodev.com@gmail.com" className="text-sm font-light text-gray-400 hover:text-cyber-cyan transition-colors duration-300 mt-1">
+                  yagodev.com@gmail.com <span className="text-[9px] font-mono text-gray-500 ml-1">// DIRETO</span>
                 </a>
               </div>
             </div>
