@@ -11,7 +11,6 @@ const Contact: React.FC = () => {
   const [inputVal, setInputVal] = useState('');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [msgLines, setMsgLines] = useState<string[]>([]);
   const [terminalHistory, setTerminalLines] = useState<TerminalLine[]>([
     { text: 'SYSTEM: PORT_OPEN // SECURE_SHELL_v2.0_ESTABLISHED', type: 'system' },
     { text: 'Para enviar uma mensagem direta, inicialize o script de contato.', type: 'system' },

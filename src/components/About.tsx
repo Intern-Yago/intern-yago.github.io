@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import { Cpu, Database, Server, Smartphone, Terminal, ShieldAlert } from 'lucide-react';
+import { Cpu, Database, Server, Smartphone, Terminal } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
