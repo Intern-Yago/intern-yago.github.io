@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
@@ -16,7 +16,7 @@ interface Project {
   github: string;
   isFlagship?: boolean;
   isGitHubCTA?: boolean;
-  bgImage: string; // The URL for the global background
+  bgImage: string;
   tintClass: string;
 }
 
@@ -26,6 +26,25 @@ const Projects: React.FC = () => {
   
   // State to manage mobile spec sheets toggling per project
   const [showSpecs, setShowSpecs] = useState<Record<string, boolean>>({});
+
+  // Responsive desktop check
+  const [isDesktop, setIsDesktop] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth >= 1024;
+    }
+    return true;
+  });
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 1024px)');
+    const handleMediaChange = (e: MediaQueryListEvent) => {
+      setIsDesktop(e.matches);
+    };
+
+    setIsDesktop(mediaQuery.matches);
+    mediaQuery.addEventListener('change', handleMediaChange);
+    return () => mediaQuery.removeEventListener('change', handleMediaChange);
+  }, []);
 
   const toggleSpecs = (id: string) => {
     setShowSpecs((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -46,7 +65,7 @@ const Projects: React.FC = () => {
       ],
       github: "https://github.com/Intern-Yago/Finora",
       isFlagship: true,
-      bgImage: "/finora-bg.png", // Newly generated Finora mockup image
+      bgImage: "/finora-bg.png",
       tintClass: "bg-cyber-cyan"
     },
     {
@@ -61,7 +80,7 @@ const Projects: React.FC = () => {
         "Melhoria drástica na velocidade de desenvolvimento local"
       ],
       github: "https://github.com/Intern-Yago/SYRIUS_CLI",
-      bgImage: "/syri-bg.png", // Newly generated Syri_CLI mockup image
+      bgImage: "/syri-bg.png",
       tintClass: "bg-cyber-magenta"
     },
     {
@@ -76,7 +95,7 @@ const Projects: React.FC = () => {
         "Arquitetura focada em performance e consumo mínimo de bateria"
       ],
       github: "https://github.com/Intern-Yago/SAVEPASSWORD-REACTNATIVE",
-      bgImage: "/savepass-bg.png", // Newly generated SavePassword mockup image
+      bgImage: "/savepass-bg.png",
       tintClass: "bg-cyber-yellow"
     },
     {
@@ -91,7 +110,7 @@ const Projects: React.FC = () => {
         "Módulo de agendamentos rápidos e logs de histórico administrativo"
       ],
       github: "https://github.com/Intern-Yago/WHITE-FEATHER-ADMIN",
-      bgImage: "/caboclo-bg.png", // Newly generated Caboclo mockup image
+      bgImage: "/caboclo-bg.png",
       tintClass: "bg-blue-500"
     },
     {
@@ -103,71 +122,92 @@ const Projects: React.FC = () => {
       features: [],
       github: "https://github.com/Intern-Yago?tab=repositories",
       isGitHubCTA: true,
-      bgImage: "/syri-bg.png", // Reuse Syri image or keep generic network aesthetic
+      bgImage: "/syri-bg.png",
       tintClass: "bg-purple-500"
     }
   ];
 
   useGSAP(() => {
-    const scrollSection = scrollSectionRef.current;
-    if (!scrollSection) return;
+    const mm = gsap.matchMedia();
 
-    const cardsCount = projectsData.length;
-    const xTranslation = -(100 * (cardsCount - 1)) / cardsCount;
-    const verticalScrollLength = (cardsCount - 1) * 100; 
+    mm.add('(min-width: 1024px)', () => {
+      const scrollSection = scrollSectionRef.current;
+      if (!scrollSection) return;
 
-    gsap.to(scrollSection, {
-      xPercent: xTranslation,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: containerRef.current,
-        pin: true,
-        scrub: 1,
-        start: 'top top',
-        end: `+=${verticalScrollLength}%`,
-        invalidateOnRefresh: true,
-      }
+      const cardsCount = projectsData.length;
+      const xTranslation = -(100 * (cardsCount - 1)) / cardsCount;
+      const verticalScrollLength = (cardsCount - 1) * 100;
+
+      gsap.to(scrollSection, {
+        xPercent: xTranslation,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: containerRef.current,
+          pin: true,
+          scrub: 1,
+          start: 'top top',
+          end: `+=${verticalScrollLength}%`,
+          invalidateOnRefresh: true,
+        }
+      });
     });
+
+    return () => mm.revert();
   }, { scope: containerRef });
 
   return (
     <div ref={containerRef} className="bg-cyber-bg overflow-hidden relative">
-      {/* Horizontal Scroll Track */}
+      {/* Mobile-only Header */}
+      <div className="lg:hidden max-w-7xl mx-auto px-6 pt-16 pb-4 text-center">
+        <div className="flex items-center justify-center space-x-2 mb-3">
+          <span className="text-cyber-cyan font-mono text-xs tracking-widest">// 02. PROJETOS</span>
+          <span className="h-[1px] w-12 bg-cyber-cyan/30" />
+        </div>
+        <h2 className="text-3xl font-bold tracking-tight text-white uppercase">
+          PORTFÓLIO DE <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-cyan to-cyber-magenta glow-text-cyan">PROJETOS</span>
+        </h2>
+        <p className="text-gray-400 text-xs font-mono mt-2">Principais trabalhos e aplicações desenvolvidas</p>
+      </div>
+
+      {/* Projects Track (Horizontal on desktop, Vertical Stack on mobile) */}
       <div 
         ref={scrollSectionRef} 
-        className="flex h-screen items-center"
-        style={{ width: `${projectsData.length * 100}vw` }}
+        className={isDesktop 
+          ? "flex h-screen items-center" 
+          : "flex flex-col space-y-12 py-8 px-4 sm:px-6 w-full h-auto"
+        }
+        style={isDesktop ? { width: `${projectsData.length * 100}vw` } : { width: '100%' }}
       >
         {projectsData.map((project) => (
           <section 
             key={project.id}
-            className="w-screen h-screen flex-shrink-0 flex items-center justify-center px-4 sm:px-6 md:px-24 relative select-none"
+            className={isDesktop 
+              ? "w-screen h-screen flex-shrink-0 flex items-center justify-center px-4 sm:px-6 md:px-24 relative select-none" 
+              : "w-full h-auto flex flex-col items-center justify-center relative select-none"
+            }
           >
-            {/* --- GLOBAL DYNAMIC BACKGROUND (PLAN A) --- */}
-            {/* Base Image: Fills the entire screen per project, but now slightly less dark (opacity 75%) */}
+            {/* --- GLOBAL DYNAMIC BACKGROUND --- */}
             <div 
-              className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-[20s] linear animate-[pulse_40s_infinite]"
+              className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-[20s] linear animate-[pulse_40s_infinite] rounded-3xl lg:rounded-none overflow-hidden"
               style={{ backgroundImage: `url(${project.bgImage})` }}
             >
-              {/* Reduced overlay from 90% to 75% for much cleaner mockup visibility */}
-              <div className="absolute inset-0 bg-cyber-bg/75 backdrop-blur-[2px]" />
-              {/* Radial gradient to draw attention to the center card */}
+              <div className="absolute inset-0 bg-cyber-bg/85 backdrop-blur-[2px]" />
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(10,10,12,0.95)_100%)]" />
             </div>
 
-            {/* Simulated Tech Grid / Target Reticle Overlay */}
+            {/* Grid Overlay */}
             <div className="absolute inset-0 bg-center bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none z-0" />
             
             {/* Special Render for GitHub Call-to-Action slide */}
             {project.isGitHubCTA ? (
-              <div className="relative z-10 max-w-4xl w-full bg-[#07070a]/85 backdrop-blur-2xl border border-cyber-cyan/30 p-8 md:p-12 rounded-3xl text-center shadow-neon-cyan flex flex-col items-center justify-center space-y-6 max-h-[85vh] overflow-y-auto">
+              <div className="relative z-10 max-w-4xl w-full bg-[#07070a]/90 backdrop-blur-2xl border border-cyber-cyan/30 p-6 sm:p-8 md:p-12 rounded-3xl text-center shadow-neon-cyan flex flex-col items-center justify-center space-y-6 lg:max-h-[85vh]">
                 <div className="p-4 bg-cyber-cyan/10 border border-cyber-cyan/20 rounded-full animate-pulse">
-                  <Github className="w-12 h-12 text-cyber-cyan" />
+                  <Github className="w-10 h-10 md:w-12 md:h-12 text-cyber-cyan" />
                 </div>
                 
                 <div>
                   <span className="text-cyber-magenta font-mono text-xs tracking-[0.25em] uppercase block mb-2">// CONEXÃO_EXTERNA</span>
-                  <h3 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tight">
+                  <h3 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight">
                     {project.title}
                   </h3>
                   <p className="text-cyber-cyan font-mono text-xs md:text-sm tracking-wide mt-1">
@@ -195,8 +235,8 @@ const Projects: React.FC = () => {
                 </a>
               </div>
             ) : (
-              /* Traditional Project Card Grid (With slightly denser solid-dark glass backing for perfect text readability) */
-              <div className="relative z-10 max-w-6xl w-full bg-[#0b0b0e]/85 backdrop-blur-2xl border border-white/10 p-6 md:p-12 rounded-3xl grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 hover:border-white/20 transition-colors duration-300 max-h-[85vh] overflow-y-auto lg:overflow-visible group shadow-2xl">
+              /* Traditional Project Card Grid */
+              <div className="relative z-10 max-w-6xl w-full bg-[#0b0b0e]/90 backdrop-blur-2xl border border-white/10 p-5 sm:p-6 md:p-12 rounded-3xl grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 hover:border-white/20 transition-colors duration-300 lg:max-h-[85vh] shadow-2xl">
                 
                 {/* Left Column: Number, Title, Description, Tech */}
                 <div className="lg:col-span-7 flex flex-col justify-between space-y-4 md:space-y-6">

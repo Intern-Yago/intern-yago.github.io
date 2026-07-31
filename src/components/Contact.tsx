@@ -19,8 +19,14 @@ const Contact: React.FC = () => {
   const terminalEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Auto-scroll to terminal bottom
+  const isFirstRender = useRef(true);
+
+  // Auto-scroll to terminal bottom on user interaction
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     terminalEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [terminalHistory]);
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechTicker from './components/TechTicker';
@@ -8,6 +8,13 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 const App: React.FC = () => {
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative min-h-screen bg-cyber-bg text-gray-300 antialiased overflow-x-hidden">
       {/* HUD Scanner lines/background noise (Cinematic details) */}
