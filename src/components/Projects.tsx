@@ -14,6 +14,7 @@ interface Project {
   tech: string[];
   features: string[];
   github: string;
+  liveUrl?: string;
   isFlagship?: boolean;
   isGitHubCTA?: boolean;
   bgImage: string;
@@ -70,21 +71,40 @@ const Projects: React.FC = () => {
     },
     {
       id: "02",
-      title: "SYRI_CLI",
-      subtitle: "Gerenciador e Automatizador de Arquivos Customizado",
-      description: "Uma CLI robusta desenvolvida para acelerar e automatizar a inicialização de projetos e a criação de boilerplate de arquivos, garantindo conformidade com os padrões arquiteturais estabelecidos.",
-      tech: ["JavaScript", "EJS", "Node.js", "CLI Tools"],
+      title: "ATHENA AUTOMOTIVA",
+      subtitle: "Plataforma E-commerce & Catálogo Digital Automotivo",
+      description: "Plataforma web completa de cotação e catálogo de equipamentos automotivos de linha pesada e leve, com cruzamento inteligente de filtros dinâmicos, integração com Cloudinary CDN e painel admin com gerador de Alt Text para SEO via IA.",
+      tech: ["Node.js", "PostgreSQL", "Tailwind CSS v4", "Cloudinary CDN", "Vercel", "Render"],
       features: [
-        "Scaffolding rápido de componentes e serviços",
-        "Geração de código baseada em templates dinâmicos EJS",
-        "Melhoria drástica na velocidade de desenvolvimento local"
+        "Filtros dinâmicos estilo e-commerce com bloqueio inteligente de combinações",
+        "Painel administrativo completo para controle de rascunhos e reordenação comercial",
+        "Gerador de descrições acessíveis Alt Text para SEO acionado por IA",
+        "Cotação automática preenchida via WhatsApp em tempo real"
       ],
-      github: "https://github.com/Intern-Yago/SYRIUS_CLI",
-      bgImage: "/syri-bg.png",
+      github: "https://github.com/Intern-Yago/athena",
+      liveUrl: "https://www.athenaconsultoria.com.br",
+      isFlagship: true,
+      bgImage: "/caboclo-bg.png",
       tintClass: "bg-cyber-magenta"
     },
     {
       id: "03",
+      title: "OBJECT STORAGE MANAGER",
+      subtitle: "Plataforma de Gerenciamento & Otimização Multi-S3 / MinIO",
+      description: "Plataforma robusta para gestão, monitoramento e otimização de múltiplos buckets S3 e MinIO. Integra backend Node.js, frontend React com Tailwind CSS, proxy reverso Nginx e orquestração completa em Docker Compose.",
+      tech: ["Docker Compose", "Nginx", "MinIO / S3", "Node.js", "React"],
+      features: [
+        "Gerenciamento e sincronização multi-bucket S3 e MinIO local/cloud",
+        "Otimização automatizada de assets e arquivos de armazenamento",
+        "Arquitetura conteinerizada prontas para implantação rápida em Docker",
+        "Scripts de setup automatizado e ambiente Nginx customizado"
+      ],
+      github: "https://github.com/Intern-Yago/object-storage-manager",
+      bgImage: "/syri-bg.png",
+      tintClass: "bg-cyber-yellow"
+    },
+    {
+      id: "04",
       title: "SAVEPASSWORD",
       subtitle: "Cofre de Segurança Mobile",
       description: "Aplicativo móvel desenvolvido com foco em privacidade de ponta para armazenamento e gerenciamento de senhas locais criptografadas, focado em alta fidelidade de design (Figma UI).",
@@ -99,7 +119,22 @@ const Projects: React.FC = () => {
       tintClass: "bg-cyber-yellow"
     },
     {
-      id: "04",
+      id: "05",
+      title: "SYRI_CLI",
+      subtitle: "Gerenciador e Automatizador de Arquivos Customizado",
+      description: "Uma CLI robusta desenvolvida para acelerar e automatizar a inicialização de projetos e a criação de boilerplate de arquivos, garantindo conformidade com os padrões arquiteturais estabelecidos.",
+      tech: ["JavaScript", "EJS", "Node.js", "CLI Tools"],
+      features: [
+        "Scaffolding rápido de componentes e serviços",
+        "Geração de código baseada em templates dinâmicos EJS",
+        "Melhoria drástica na velocidade de desenvolvimento local"
+      ],
+      github: "https://github.com/Intern-Yago/SYRIUS_CLI",
+      bgImage: "/syri-bg.png",
+      tintClass: "bg-cyber-magenta"
+    },
+    {
+      id: "06",
       title: "WHITE FEATHER ADMIN",
       subtitle: "Gerenciador e Painel de Triagem Administrativa",
       description: "Sistema web customizado para agendamentos e triagem, permitindo o gerenciamento e monitoramento ativo de fluxos administrativos internos com alta responsividade.",
@@ -289,7 +324,7 @@ const Projects: React.FC = () => {
                   </div>
 
                   {/* Links */}
-                  <div className="flex items-center space-x-6 pt-4 border-t border-white/10">
+                  <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-4 border-t border-white/10">
                     <a 
                       href={project.github}
                       target="_blank"
@@ -299,7 +334,18 @@ const Projects: React.FC = () => {
                       <Github className="w-4 h-4 group-hover/link:scale-110 transition-transform duration-300" />
                       <span>GITHUB_REPO</span>
                     </a>
-                    {project.isFlagship && (
+                    {project.liveUrl && (
+                      <a 
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 text-cyber-cyan glow-text-cyan hover:text-white font-mono text-[10px] md:text-xs tracking-widest transition-colors duration-300 group/link"
+                      >
+                        <ExternalLink className="w-4 h-4 group-hover/link:scale-110 transition-transform duration-300" />
+                        <span>VISITAR_SITE</span>
+                      </a>
+                    )}
+                    {project.isFlagship && !project.liveUrl && (
                       <a 
                         href="#contact"
                         className="flex items-center space-x-2 text-cyber-cyan glow-text-cyan font-mono text-[10px] md:text-xs tracking-widest animate-pulse"
