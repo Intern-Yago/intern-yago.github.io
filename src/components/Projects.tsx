@@ -89,6 +89,23 @@ const Projects: React.FC = () => {
     },
     {
       id: "03",
+      title: "POESIAS WEB",
+      subtitle: "Rede Social Literária & Plataforma Full Stack",
+      description: "Plataforma web para publicação literária e poesias autorais com sistema completo de autenticação de usuários, interações sociais em tempo real (curtidas, comentários e reposts), modelagem relacional Prisma ORM e painel administrativo.",
+      tech: ["Next.js", "Prisma ORM", "NextAuth.js", "PostgreSQL", "Tailwind CSS", "Vercel"],
+      features: [
+        "Autenticação segura de usuários e controle de sessões via NextAuth",
+        "Feed interativo com algoritmo de curtidas, comentários e reposts em tempo real",
+        "Modelagem relacional e queries otimizadas com Prisma ORM e PostgreSQL",
+        "Painel administrativo exclusivo para moderação e gestão de conteúdo"
+      ],
+      github: "https://github.com/Intern-Yago/poesias_web",
+      isFlagship: true,
+      bgImage: "/syri-bg.webp",
+      tintClass: "bg-cyber-magenta"
+    },
+    {
+      id: "04",
       title: "OBJECT STORAGE MANAGER",
       subtitle: "Plataforma de Gerenciamento & Otimização Multi-S3 / MinIO",
       description: "Plataforma robusta para gestão, monitoramento e otimização de múltiplos buckets S3 e MinIO. Integra backend Node.js, frontend React com Tailwind CSS, proxy reverso Nginx e orquestração completa em Docker Compose.",
@@ -104,7 +121,23 @@ const Projects: React.FC = () => {
       tintClass: "bg-cyber-yellow"
     },
     {
-      id: "04",
+      id: "05",
+      title: "LANDING PAGES SUITE",
+      subtitle: "Suíte Comercial de Landing Pages & Automações",
+      description: "Suíte de Landing Pages de alta conversão responsivas desenvolvidas para clientes corporativos e comerciais, integradas a scripts Python de automação comercial e relatórios analíticos.",
+      tech: ["React.js", "TypeScript", "Tailwind CSS", "Python Automation", "SEO / CRO"],
+      features: [
+        "Layouts responsivos de alta conversão (CRO) e máxima velocidade de carregamento",
+        "Automação em Python para geração instantânea de propostas e relatórios em PDF",
+        "Formulários dinâmicos integrados com captura direta e redirecionamento WhatsApp",
+        "Arquitetura otimizada para buscadores (SEO) com Meta tags dinâmicas"
+      ],
+      github: "https://github.com/Intern-Yago/dentistas",
+      bgImage: "/caboclo-bg.webp",
+      tintClass: "bg-blue-500"
+    },
+    {
+      id: "06",
       title: "SAVEPASSWORD",
       subtitle: "Cofre de Segurança Mobile",
       description: "Aplicativo móvel desenvolvido com foco em privacidade de ponta para armazenamento e gerenciamento de senhas locais criptografadas, focado em alta fidelidade de design (Figma UI).",
@@ -117,36 +150,6 @@ const Projects: React.FC = () => {
       github: "https://github.com/Intern-Yago/SAVEPASSWORD-REACTNATIVE",
       bgImage: "/savepass-bg.webp",
       tintClass: "bg-cyber-yellow"
-    },
-    {
-      id: "05",
-      title: "SYRI_CLI",
-      subtitle: "Gerenciador e Automatizador de Arquivos Customizado",
-      description: "Uma CLI robusta desenvolvida para acelerar e automatizar a inicialização de projetos e a criação de boilerplate de arquivos, garantindo conformidade com os padrões arquiteturais estabelecidos.",
-      tech: ["JavaScript", "EJS", "Node.js", "CLI Tools"],
-      features: [
-        "Scaffolding rápido de componentes e serviços",
-        "Geração de código baseada em templates dinâmicos EJS",
-        "Melhoria drástica na velocidade de desenvolvimento local"
-      ],
-      github: "https://github.com/Intern-Yago/SYRIUS_CLI",
-      bgImage: "/syri-bg.webp",
-      tintClass: "bg-cyber-magenta"
-    },
-    {
-      id: "06",
-      title: "WHITE FEATHER ADMIN",
-      subtitle: "Gerenciador e Painel de Triagem Administrativa",
-      description: "Sistema web customizado para agendamentos e triagem, permitindo o gerenciamento e monitoramento ativo de fluxos administrativos internos com alta responsividade.",
-      tech: ["JavaScript", "HTML5", "SCSS", "Dashboard Logic"],
-      features: [
-        "Painel administrativo em tempo real para controle de filas de atendimento",
-        "Layout customizado em SCSS focado em usabilidade e design fluído",
-        "Módulo de agendamentos rápidos e logs de histórico administrativo"
-      ],
-      github: "https://github.com/Intern-Yago/WHITE-FEATHER-ADMIN",
-      bgImage: "/caboclo-bg.webp",
-      tintClass: "bg-blue-500"
     },
     {
       id: "CTA",
