@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yago-guimaraes-dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyber-cyan transition-colors duration-300"
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
               <span className="text-xs tracking-wider">GITHUB</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yago-guimaraes-dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyber-cyan flex items-center space-x-2"

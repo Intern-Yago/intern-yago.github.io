@@ -132,7 +132,8 @@ const Projects: React.FC = () => {
         "Formulários dinâmicos integrados com captura direta e redirecionamento WhatsApp",
         "Arquitetura otimizada para buscadores (SEO) com Meta tags dinâmicas"
       ],
-      github: "https://github.com/Intern-Yago/dentistas",
+      github: "",
+      isFlagship: true,
       bgImage: "/caboclo-bg.webp",
       tintClass: "bg-blue-500"
     },
@@ -328,15 +329,17 @@ const Projects: React.FC = () => {
 
                   {/* Links */}
                   <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-4 border-t border-white/10">
-                    <a 
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 text-white hover:text-cyber-cyan font-mono text-[10px] md:text-xs tracking-widest transition-colors duration-300 group/link"
-                    >
-                      <Github className="w-4 h-4 group-hover/link:scale-110 transition-transform duration-300" />
-                      <span>GITHUB_REPO</span>
-                    </a>
+                    {project.github && (
+                      <a 
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 text-white hover:text-cyber-cyan font-mono text-[10px] md:text-xs tracking-widest transition-colors duration-300 group/link"
+                      >
+                        <Github className="w-4 h-4 group-hover/link:scale-110 transition-transform duration-300" />
+                        <span>GITHUB_REPO</span>
+                      </a>
+                    )}
                     {project.liveUrl && (
                       <a 
                         href={project.liveUrl}
