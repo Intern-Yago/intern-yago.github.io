@@ -131,7 +131,7 @@ const About: React.FC = () => {
               isDecrypted ? 'opacity-100 scale-100 blur-0' : 'opacity-0 scale-95 blur-md'
             }`}>
               <img 
-                src="/perfil.png" 
+                src="/perfil.webp" 
                 alt="Yago" 
                 className="absolute inset-1.5 w-[calc(100%-12px)] h-[calc(100%-12px)] object-cover rounded-2xl opacity-75 group-hover:opacity-95 transition-opacity duration-300"
                 onError={(e) => {

@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
       ],
       github: "https://github.com/Intern-Yago/Finora",
       isFlagship: true,
-      bgImage: "/finora-bg.png",
+      bgImage: "/finora-bg.webp",
       tintClass: "bg-cyber-cyan"
     },
     {
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
       github: "https://github.com/Intern-Yago/athena",
       liveUrl: "https://www.athenaconsultoria.com.br",
       isFlagship: true,
-      bgImage: "/caboclo-bg.png",
+      bgImage: "/caboclo-bg.webp",
       tintClass: "bg-cyber-magenta"
     },
     {
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
         "Scripts de setup automatizado e ambiente Nginx customizado"
       ],
       github: "https://github.com/Intern-Yago/object-storage-manager",
-      bgImage: "/syri-bg.png",
+      bgImage: "/syri-bg.webp",
       tintClass: "bg-cyber-yellow"
     },
     {
@@ -115,7 +115,7 @@ const Projects: React.FC = () => {
         "Arquitetura focada em performance e consumo mínimo de bateria"
       ],
       github: "https://github.com/Intern-Yago/SAVEPASSWORD-REACTNATIVE",
-      bgImage: "/savepass-bg.png",
+      bgImage: "/savepass-bg.webp",
       tintClass: "bg-cyber-yellow"
     },
     {
@@ -130,7 +130,7 @@ const Projects: React.FC = () => {
         "Melhoria drástica na velocidade de desenvolvimento local"
       ],
       github: "https://github.com/Intern-Yago/SYRIUS_CLI",
-      bgImage: "/syri-bg.png",
+      bgImage: "/syri-bg.webp",
       tintClass: "bg-cyber-magenta"
     },
     {
@@ -145,7 +145,7 @@ const Projects: React.FC = () => {
         "Módulo de agendamentos rápidos e logs de histórico administrativo"
       ],
       github: "https://github.com/Intern-Yago/WHITE-FEATHER-ADMIN",
-      bgImage: "/caboclo-bg.png",
+      bgImage: "/caboclo-bg.webp",
       tintClass: "bg-blue-500"
     },
     {
@@ -157,7 +157,7 @@ const Projects: React.FC = () => {
       features: [],
       github: "https://github.com/Intern-Yago?tab=repositories",
       isGitHubCTA: true,
-      bgImage: "/syri-bg.png",
+      bgImage: "/syri-bg.webp",
       tintClass: "bg-purple-500"
     }
   ];
