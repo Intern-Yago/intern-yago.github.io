@@ -179,7 +179,7 @@ const Projects: React.FC = () => {
         scrollTrigger: {
           trigger: containerRef.current,
           pin: true,
-          scrub: 1,
+          scrub: true,
           start: 'top top',
           end: `+=${verticalScrollLength}%`,
           invalidateOnRefresh: true,
@@ -208,7 +208,7 @@ const Projects: React.FC = () => {
       <div 
         ref={scrollSectionRef} 
         className={isDesktop 
-          ? "flex h-screen items-center" 
+          ? "flex h-screen items-center will-change-transform transform-gpu" 
           : "flex flex-col space-y-12 py-8 px-4 sm:px-6 w-full h-auto"
         }
         style={isDesktop ? { width: `${projectsData.length * 100}vw` } : { width: '100%' }}
@@ -217,16 +217,16 @@ const Projects: React.FC = () => {
           <section 
             key={project.id}
             className={isDesktop 
-              ? "w-screen h-screen flex-shrink-0 flex items-center justify-center px-4 sm:px-6 md:px-24 relative select-none" 
+              ? "w-screen h-screen flex-shrink-0 flex items-center justify-center px-4 sm:px-6 md:px-24 relative select-none transform-gpu" 
               : "w-full h-auto flex flex-col items-center justify-center relative select-none"
             }
           >
             {/* --- GLOBAL DYNAMIC BACKGROUND --- */}
             <div 
-              className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-[20s] linear animate-[pulse_40s_infinite] rounded-3xl lg:rounded-none overflow-hidden"
+              className="absolute inset-0 bg-cover bg-center z-0 rounded-3xl lg:rounded-none overflow-hidden"
               style={{ backgroundImage: `url(${project.bgImage})` }}
             >
-              <div className="absolute inset-0 bg-cyber-bg/85 backdrop-blur-[2px]" />
+              <div className="absolute inset-0 bg-cyber-bg/90" />
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(10,10,12,0.95)_100%)]" />
             </div>
 
@@ -235,7 +235,7 @@ const Projects: React.FC = () => {
             
             {/* Special Render for GitHub Call-to-Action slide */}
             {project.isGitHubCTA ? (
-              <div className="relative z-10 max-w-4xl w-full bg-[#07070a]/90 backdrop-blur-2xl border border-cyber-cyan/30 p-6 sm:p-8 md:p-12 rounded-3xl text-center shadow-neon-cyan flex flex-col items-center justify-center space-y-6 lg:max-h-[85vh]">
+              <div className="relative z-10 max-w-4xl w-full bg-[#07070a]/95 border border-cyber-cyan/30 p-6 sm:p-8 md:p-12 rounded-3xl text-center shadow-neon-cyan flex flex-col items-center justify-center space-y-6 lg:max-h-[85vh]">
                 <div className="p-4 bg-cyber-cyan/10 border border-cyber-cyan/20 rounded-full animate-pulse">
                   <Github className="w-10 h-10 md:w-12 md:h-12 text-cyber-cyan" />
                 </div>
@@ -271,7 +271,7 @@ const Projects: React.FC = () => {
               </div>
             ) : (
               /* Traditional Project Card Grid */
-              <div className="relative z-10 max-w-6xl w-full bg-[#0b0b0e]/90 backdrop-blur-2xl border border-white/10 p-5 sm:p-6 md:p-12 rounded-3xl grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 hover:border-white/20 transition-colors duration-300 lg:max-h-[85vh] shadow-2xl">
+              <div className="relative z-10 max-w-6xl w-full bg-[#0b0b0e]/95 border border-white/10 p-5 sm:p-6 md:p-12 rounded-3xl grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 hover:border-white/20 transition-colors duration-300 lg:max-h-[85vh] shadow-2xl">
                 
                 {/* Left Column: Number, Title, Description, Tech */}
                 <div className="lg:col-span-7 flex flex-col justify-between space-y-4 md:space-y-6">
@@ -316,7 +316,7 @@ const Projects: React.FC = () => {
                     {project.tech.map((t, idx) => (
                       <span 
                         key={idx} 
-                        className="bg-black/50 backdrop-blur-md border border-white/10 hover:border-cyber-cyan/50 text-gray-200 px-2.5 py-0.5 md:py-1 rounded text-[10px] md:text-xs font-mono transition-colors duration-300"
+                        className="bg-[#121218]/90 border border-white/10 hover:border-cyber-cyan/50 text-gray-200 px-2.5 py-0.5 md:py-1 rounded text-[10px] md:text-xs font-mono transition-colors duration-300"
                       >
                         {t}
                       </span>
@@ -358,7 +358,7 @@ const Projects: React.FC = () => {
                 </div>
 
                 {/* Right Column: Key Features List */}
-                <div className={`lg:col-span-5 flex flex-col justify-center bg-black/60 backdrop-blur-md border border-white/5 p-5 md:p-8 rounded-2xl overflow-hidden transition-all duration-300 ${
+                <div className={`lg:col-span-5 flex flex-col justify-center bg-[#121218]/90 border border-white/5 p-5 md:p-8 rounded-2xl overflow-hidden transition-all duration-300 ${
                   showSpecs[project.id] ? 'block mt-4 lg:mt-0' : 'hidden lg:flex'
                 }`}>
                   <div className="absolute top-0 right-0 w-32 h-32 bg-cyber-magenta/10 rounded-full blur-2xl pointer-events-none" />

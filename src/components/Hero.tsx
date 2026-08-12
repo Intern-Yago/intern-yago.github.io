@@ -15,10 +15,11 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', { alpha: false });
     if (!ctx) return;
 
     let animationFrameId: number;
+    let isVisible = true;
     let particles: Array<{
       x: number;
       y: number;
@@ -35,7 +36,7 @@ const Hero: React.FC = () => {
 
     const initParticles = () => {
       particles = [];
-      const count = Math.min(Math.floor(window.innerWidth / 15), 80);
+      const count = Math.min(Math.floor(window.innerWidth / 30), 40);
       for (let i = 0; i < count; i++) {
         const isCyan = Math.random() > 0.5;
         particles.push({
@@ -50,7 +51,10 @@ const Hero: React.FC = () => {
     };
 
     const drawParticles = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (!isVisible) return;
+      ctx.fillStyle = '#0a0a0c';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
       particles.forEach((p) => {
         ctx.fillStyle = p.color;
         ctx.beginPath();
@@ -69,13 +73,15 @@ const Hero: React.FC = () => {
       });
 
       // Subtle lines connecting close particles
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
+      const particleLen = particles.length;
+      for (let i = 0; i < particleLen; i++) {
+        for (let j = i + 1; j < particleLen; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 100) {
-            ctx.strokeStyle = `rgba(0, 240, 255, ${0.05 * (1 - dist / 100)})`;
+          const distSq = dx * dx + dy * dy;
+          if (distSq < 6400) { // 80px squared
+            const dist = Math.sqrt(distSq);
+            ctx.strokeStyle = `rgba(0, 240, 255, ${0.04 * (1 - dist / 80)})`;
             ctx.lineWidth = 0.5;
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
@@ -88,12 +94,26 @@ const Hero: React.FC = () => {
       animationFrameId = requestAnimationFrame(drawParticles);
     };
 
+    // Pause particle animation when Hero section is out of viewport to free up CPU/GPU for projects section
+    const observer = new IntersectionObserver(([entry]) => {
+      isVisible = entry.isIntersecting;
+      if (isVisible) {
+        cancelAnimationFrame(animationFrameId);
+        drawParticles();
+      }
+    }, { threshold: 0.1 });
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
     window.addEventListener('resize', resizeCanvas);
     resizeCanvas();
     initParticles();
     drawParticles();
 
     return () => {
+      observer.disconnect();
       window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(animationFrameId);
     };
