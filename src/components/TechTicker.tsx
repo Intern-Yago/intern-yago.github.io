@@ -19,7 +19,7 @@ const TechTicker: React.FC = () => {
       <div className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-cyber-bg via-cyber-bg/50 to-transparent z-10 pointer-events-none" />
 
       {/* Marquee Track */}
-      <div className="flex w-max items-center space-x-16 animate-marquee">
+      <div className="flex w-max items-center space-x-16 animate-marquee will-change-transform transform-gpu">
         {tickerItems.map((tech, idx) => (
           <div 
             key={idx} 

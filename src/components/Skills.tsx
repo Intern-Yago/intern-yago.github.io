@@ -56,25 +56,23 @@ const Skills: React.FC = () => {
   ];
 
   useGSAP(() => {
-    // Select all bars and animate their width when scrolled into view
-    barsRef.current.forEach((bar) => {
-      if (!bar) return;
-      const targetWidth = bar.getAttribute('data-width');
-      
-      gsap.fromTo(bar, 
-        { width: '0%' },
-        { 
-          width: `${targetWidth}%`, 
-          duration: 1.5, 
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: bar,
-            start: 'top 90%',
-            toggleActions: 'play none none none',
-          }
+    const validBars = barsRef.current.filter(Boolean);
+    if (validBars.length === 0) return;
+
+    gsap.fromTo(validBars, 
+      { width: '0%' },
+      { 
+        width: (_, el) => `${el.getAttribute('data-width')}%`, 
+        duration: 1.2, 
+        stagger: 0.05,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top 75%',
+          toggleActions: 'play none none none',
         }
-      );
-    });
+      }
+    );
   }, { scope: containerRef });
 
   return (

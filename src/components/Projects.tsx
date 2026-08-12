@@ -184,6 +184,8 @@ const Projects: React.FC = () => {
           trigger: containerRef.current,
           pin: true,
           scrub: true,
+          anticipatePin: 1,
+          fastScrollEnd: true,
           start: 'top top',
           end: `+=${verticalScrollLength}%`,
           invalidateOnRefresh: true,
