@@ -127,10 +127,10 @@ const Projects: React.FC = () => {
       description: "Suíte de Landing Pages de alta conversão responsivas desenvolvidas para clientes corporativos e comerciais, integradas a scripts Python de automação comercial e relatórios analíticos.",
       tech: ["React.js", "TypeScript", "Tailwind CSS", "Python Automation", "SEO / CRO"],
       features: [
-        "Layouts responsivos de alta conversão (CRO) e máxima velocidade de carregamento",
-        "Automação em Python para geração instantânea de propostas e relatórios em PDF",
-        "Formulários dinâmicos integrados com captura direta e redirecionamento WhatsApp",
-        "Arquitetura otimizada para buscadores (SEO) com Meta tags dinâmicas"
+        "Demo 01: https://clinicaoliva.vercel.app",
+        "Demo 02: https://clinicawhite.vercel.app",
+        "Demo 03: https://clinicasolucao.vercel.app",
+        "Automação em Python para geração de relatórios e propostas comerciais"
       ],
       github: "",
       isFlagship: true,
@@ -376,14 +376,36 @@ const Projects: React.FC = () => {
                   </h4>
                   
                   <ul className="space-y-3 md:space-y-4 relative z-10">
-                    {project.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start space-x-2.5 md:space-x-3 text-xs md:text-sm text-gray-300 font-light leading-relaxed">
-                        <span className="text-cyber-magenta mt-1 flex-shrink-0">
-                          <ArrowRight className="w-3.5 h-3.5" />
-                        </span>
-                        <span>{feature}</span>
-                      </li>
-                    ))}
+                    {project.features.map((feature, idx) => {
+                      const isUrl = feature.includes('http');
+                      if (isUrl) {
+                        const [label, url] = feature.split(': ');
+                        return (
+                          <li key={idx} className="flex items-center space-x-2.5 md:space-x-3 text-xs md:text-sm text-gray-300 font-light leading-relaxed">
+                            <span className="text-cyber-cyan mt-0.5 flex-shrink-0">
+                              <ExternalLink className="w-3.5 h-3.5" />
+                            </span>
+                            <span className="font-mono text-xs">{label}: </span>
+                            <a
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-cyber-cyan glow-text-cyan hover:underline font-mono text-xs underline-offset-4"
+                            >
+                              {url.replace('https://', '')} ↗
+                            </a>
+                          </li>
+                        );
+                      }
+                      return (
+                        <li key={idx} className="flex items-start space-x-2.5 md:space-x-3 text-xs md:text-sm text-gray-300 font-light leading-relaxed">
+                          <span className="text-cyber-magenta mt-1 flex-shrink-0">
+                            <ArrowRight className="w-3.5 h-3.5" />
+                          </span>
+                          <span>{feature}</span>
+                        </li>
+                      );
+                    })}
                   </ul>
 
                   {project.isFlagship && (

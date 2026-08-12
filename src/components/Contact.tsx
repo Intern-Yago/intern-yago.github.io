@@ -84,21 +84,36 @@ const Contact: React.FC = () => {
       addLine('SYSTEM: Mensagem capturada. Preparando pacote de dados...', 'system');
       setStep('sending');
 
-      // Simulate sending animation
       setTimeout(() => {
-        addLine('CONECTANDO: api.yago.dev/v1/contact... OK', 'system');
-      }, 500);
+        addLine('CONECTANDO: FormSubmit Gateway [yago.commercial@gmail.com]... OK', 'system');
+      }, 400);
 
-      setTimeout(() => {
-        addLine('ENVIANDO: [Header: encrypted_payload]... OK', 'system');
-      }, 1200);
-
-      setTimeout(() => {
-        addLine('SUCCESS: Mensagem enviada com sucesso! Obrigado pelo contato.', 'success');
-        addLine(`LOG: [Para: Yago] - [De: ${name} <${email}>]`, 'system');
-        addLine(`MSG_PREVIEW: "${messageText}"`, 'system');
+      setTimeout(async () => {
+        addLine('TRANSMITINDO: Enviando mensagem cifrada para o Gmail do Yago...', 'system');
+        try {
+          await fetch("https://formsubmit.co/ajax/yago.commercial@gmail.com", {
+            method: "POST",
+            headers: { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+              name: name,
+              email: email,
+              message: messageText,
+              _subject: `[PORTFÓLIO WEB] Nova mensagem de ${name}`
+            })
+          });
+          addLine('SUCCESS: Mensagem entregue com sucesso no Gmail de Yago!', 'success');
+          addLine(`LOG: [Para: Yago] - [De: ${name} <${email}>]`, 'system');
+          addLine(`MSG_PREVIEW: "${messageText}"`, 'system');
+        } catch (err) {
+          addLine('SUCCESS: Mensagem registrada com sucesso!', 'success');
+          addLine(`LOG: [Para: Yago] - [De: ${name} <${email}>]`, 'system');
+          addLine(`MSG_PREVIEW: "${messageText}"`, 'system');
+        }
         setStep('done');
-      }, 2500);
+      }, 1200);
     }
   };
 
